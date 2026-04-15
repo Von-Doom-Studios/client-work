@@ -1,0 +1,9 @@
+{
+  "name": "24 Tattoos Dossier v3",
+  "id": "24-tattoos-dossier-v3",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page"
+}

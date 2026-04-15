@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #1A1A1A;
+      color: #F0EAD6;
+      padding: 20px;
+      min-height: 100vh;
+    }
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #C9A84C;
+      margin-bottom: 6px;
+      letter-spacing: 0.04em;
+    }
+    p {
+      font-size: 11px;
+      color: #9A9080;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px 0;
+      background: #C9A84C;
+      color: #0A0A0A;
+      border: none;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    .btn:hover { background: #E8C87A; }
+    .btn:active { background: #8A6E2A; }
+    .note {
+      font-size: 10px;
+      color: #666;
+      margin-top: 14px;
+      line-height: 1.5;
+    }
+    .note span { color: #7B5CF0; }
+  </style>
+</head>
+<body>
+  <h2>24 TATTOOS</h2>
+  <p>Generates the complete pitch dossier — 16 frames — using the 24 Tattoos visual system: near-black, aged gold, bone white, UV purple.</p>
+  <button class="btn" onclick="generate()">Generate Dossier</button>
+  <p class="note">
+    This will create a new page called <strong>"24 TATTOOS Dossier"</strong> in your Figma file with all slides laid out at 1920×1080.<br><br>
+    <span>UV purple</span> is used only for Julia's character slide and key reveal moments — as intended.
+  </p>
+  <script>
+    function generate() {
+      parent.postMessage({ pluginMessage: { type: 'generate' } }, '*');
+    }
+  </script>
+</body>
+</html>
