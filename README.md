@@ -1,6 +1,6 @@
 # VonDoom Studios — Clients
 
-Client projects managed by VonDoom Studios across film, TV, and other industries.
+Client project repository for VonDoom Studios, organized by industry and client.
 
 | Section | Description |
 |---|---|

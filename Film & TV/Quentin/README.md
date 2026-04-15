@@ -1,6 +1,6 @@
 # Quentin Pradelle
 
-Projects for Quentin Pradelle — writer, film & TV.
+Writer. Film & TV client of VonDoom Studios.
 
 | Section | Description |
 |---|---|
