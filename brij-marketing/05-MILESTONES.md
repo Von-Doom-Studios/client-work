@@ -1,101 +1,72 @@
-# Milestones & Tracking — BRIJ
+# Milestones & Tracking
 
 ---
 
-## Primary Targets
+## THE NUMBERS
 
-| Metric | Target | Deadline |
-|--------|--------|----------|
-| **Email signups** | **10,000** | End of Phase 3 |
-| **Social followers (X primary)** | **2,000–5,000** | End of Phase 3 |
-| **Total flight bookings** | **1,000+** | End of Phase 3 |
+| Metric | Phase 1 (Wk 1–4) | Phase 2 (Wk 5–8) | Phase 3 (Wk 9+) |
+|--------|-------------------|-------------------|------------------|
+| **Email signups** | 500 | 2,500 | **10,000** |
+| **X followers** | 500 | 1,500 | **2,000–5,000** |
+| **Bookings** | 50 | 250 | **1,000** |
+| YouTube subs | — | 200 | 500+ |
+| TikTok followers | — | 500 | 1,000+ |
+| Press coverage | — | — | 1+ major outlet |
 
 ---
 
-## Phase Targets
+## WEEKLY TRACKER
+
+Update every Friday. No exceptions.
+
+| Week | X Followers | Email Signups | Bookings | Ad Spend | Best Post (impressions) | Worst Post | Action Taken |
+|------|-----------|--------------|----------|----------|----------------------|------------|-------------|
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+| 6 | | | | | | | |
+| 7 | | | | | | | |
+| 8 | | | | | | | |
+
+---
+
+## WEEKLY DIAGNOSTIC
+
+Run this every Friday alongside the tracker:
+
+| Signal | What It Means | What To Do |
+|--------|--------------|------------|
+| High reach, low profile clicks | Content is interesting but disconnected from BRIJ | Stronger branding. Every post should make BRIJ the obvious next click. |
+| High profile clicks, flat followers | Profile isn't converting visitors | Rewrite bio. Change pinned tweet. Make the value obvious in 3 seconds. |
+| High followers, low link clicks | Audience is growing but not acting | More direct CTAs. Link to travel.brij.fi in every other post. |
+| High link clicks, low signups | Landing page is leaking | Fix the page. Reduce friction. Move email capture above fold. |
+| High signups, low bookings | Product gap or trust gap | Add social proof. User testimonials. Live booking videos. |
+| High bookings, low repeat | One-time curiosity, not habit | Post-booking email sequence. "Going somewhere else?" follow-ups. |
+
+---
+
+## POST-MORTEMS
 
 ### Phase 1 (Weeks 1–4)
-
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| Email signups | 500 | | ⬜ |
-| X followers | 500 | | ⬜ |
-| Completed bookings | 50 | | ⬜ |
-| Organic X mentions (not team) | 10 | | ⬜ |
-| Unique API users | 100 | | ⬜ |
-| GitHub stars | 50 | | ⬜ |
-| Ad spend | $375 (Weeks 1–4) | | ⬜ |
+- **Dates:**
+- **Email target (500) — hit?**
+- **X followers target (500) — hit?**
+- **Bookings target (50) — hit?**
+- **Total ad spend:**
+- **Best-performing content:**
+- **Worst-performing content:**
+- **Key insight:**
+- **What changes for Phase 2:**
 
 ### Phase 2 (Weeks 5–8)
-
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| Email signups (cumulative) | 2,500 | | ⬜ |
-| X followers (cumulative) | 1,500 | | ⬜ |
-| YouTube subscribers | 200 | | ⬜ |
-| Completed bookings (cumulative) | 250 | | ⬜ |
-| Wallet signups | 300 | | ⬜ |
-| YouTube explainer views | 5,000 | | ⬜ |
-| Email open rate | >30% | | ⬜ |
-| Ad spend | $800 (Weeks 5–8) | | ⬜ |
-
-### Phase 3 (Weeks 9+)
-
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| **Email signups (cumulative)** | **10,000** | | ⬜ |
-| **Social followers (all platforms)** | **2,000–5,000** | | ⬜ |
-| **Total bookings (all time)** | **1,000** | | ⬜ |
-| Credit card conversion rate | >10% | | ⬜ |
-| Press coverage | 1+ major outlet | | ⬜ |
-| Organic growth > paid | Yes | | ⬜ |
-| Ad spend | $800+/month | | ⬜ |
-
----
-
-## Weekly Performance Log
-
-Update every Friday.
-
-| Week | X Followers | Email Signups | Bookings | Ad Spend | Top Post (impressions) | Notes |
-|------|-----------|--------------|----------|----------|----------------------|-------|
-| 1 | | | | | | |
-| 2 | | | | | | |
-| 3 | | | | | | |
-| 4 | | | | | | |
-| 5 | | | | | | |
-| 6 | | | | | | |
-| 7 | | | | | | |
-| 8 | | | | | | |
-
----
-
-## Diagnostic (Run Weekly)
-
-| Signal | Diagnosis | Fix |
-|--------|-----------|-----|
-| High reach + low profile clicks | Content doesn't connect to BRIJ | Stronger branding, clearer CTAs |
-| High profile clicks + flat followers | Bio/profile isn't converting | Update bio, pin best post |
-| High followers + low link clicks | Audience isn't converting | More CTAs to brij.fi/travel |
-| High link clicks + low signups | Landing page isn't converting | Fix CTA, reduce friction |
-| High signups + low bookings | Product friction or trust gap | Improve onboarding, add social proof |
-
----
-
-## Post-Mortem (At Phase Transitions)
-
-### Phase 1
-- **Dates:** [TBD]
-- **Targets vs. Actual:** [TBD]
-- **What worked:** [TBD]
-- **What didn't:** [TBD]
-- **Budget spent:** [TBD]
-- **Phase 2 adjustments:** [TBD]
-
-### Phase 2
-- **Dates:** [TBD]
-- **Targets vs. Actual:** [TBD]
-- **What worked:** [TBD]
-- **What didn't:** [TBD]
-- **Budget spent:** [TBD]
-- **Phase 3 adjustments:** [TBD]
+- **Dates:**
+- **Email target (2,500) — hit?**
+- **X followers target (1,500) — hit?**
+- **Bookings target (250) — hit?**
+- **Total ad spend:**
+- **Best-performing content:**
+- **Worst-performing content:**
+- **Key insight:**
+- **What changes for Phase 3:**
