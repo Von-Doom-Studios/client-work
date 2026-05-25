@@ -4,19 +4,40 @@ Written-out post copy, recurring templates, welcome email, newsletter format. Th
 
 **Owner:** VD-Marketing
 **Related files:** [05-CALENDAR.md](./05-CALENDAR.md), [06-CAMPAIGNS.md](./06-CAMPAIGNS.md), [09-EMAIL.md](./09-EMAIL.md)
-**Last updated:** 2026-05-22
+**Last updated:** 2026-05-25
 
 ---
 
+## Theme structure (per Antoine + David call 2026-05-25)
+
+- **Week 1:** Travel (Grok / travel.brij.fi). Plus one Espresso-to-Brij announcement tweet.
+- **Week 2:** Smart wallet.
+- **Week 3:** Ramp on-ramp inside the wallet (fiat in/out).
+- **Week 4:** Services + community bounty + newsletter + free flight promo.
+
 ## Voice rules (apply to every asset below)
 
-- Lowercase intros are fine.
-- Code, numbers, screenshots over adjectives.
-- No "excited to announce." No "thrilled." No rocket emojis.
+- Confident, sharp, a little swaggering. Builder who knows the thing is good and is daring you to try it.
+- Specificity over abstraction. Real numbers, real flows, real receipts.
+- Energy. We are marketing, not flyers on a wall. Hooks that punch. Lines worth quoting. Humor when it fits.
+- No "excited to announce." No "thrilled." No rocket emojis. No "gm fam." No "revolutionizing."
+- Crypto-literate but not crypto-coded. Audience is builders, operators, and curious normies who already get wallets.
 - No em dashes.
-- Short sentences. One idea per line where possible.
-- For X: ~250 char target on standalone posts, longer for receipts that need context.
-- For LinkedIn: 3-5 short paragraphs, founder POV, dry confidence.
+- Lowercase intros fine for X. LinkedIn stays sentence-case, founder voice, first person.
+- X: ~250 char target on standalone posts, longer for receipts that need context.
+- LinkedIn: 3-5 short paragraphs, one sharp insight per post.
+- Reply game (engagement): short, smart, never thirsty. Never beg for retweets.
+
+### Voice anchors (good vs bad)
+
+Bad: "Excited to share that you can now book travel with crypto on Brij."
+Good: "booked a flight, paid in usdc, no card, no email signup. travel.brij.fi is live. try to break it."
+
+Bad: "We're revolutionizing wallets with AI agents."
+Good: "your wallet should be able to book the flight, not just hold the money for it. that's what we built."
+
+Bad: "GM frens, big announcement coming."
+Good: "while you were sleeping, espresso cash grew up. we're brij now."
 
 ---
 
@@ -45,187 +66,277 @@ Written-out post copy, recurring templates, welcome email, newsletter format. Th
 
 ---
 
-## Week 1 posts
+## Week 1 posts - TRAVEL
 
-### post-w1-x-1 (pinned) - Espresso to Brij announcement
+### post-w1-x-1 (Mon, pinned) - Travel hero
 
-> espresso cash is now brij smart wallet.
+> book a flight with your wallet. not your wallet wallet. your actual smart wallet.
 >
-> we spent two years building a wallet for humans. then agents started showing up needing the same thing - daily limits, policies, signing keys, on-ramps - except they don't need a human-shaped UI. they need an API.
+> travel.brij.fi is live. type where you want to go. an agent finds the cheapest seat, pays in usdc, and you get a real PNR before your coffee gets cold.
 >
-> brij is that. wallet, on-ramps, and pay-per-call access in one stack. built on x402, settled on solana.
->
-> first proof is live: travel.brij.fi. agent books a flight. no IATA, no contract, no monthly minimum.
->
-> brij.fi
+> no card. no airline account. no IATA shenanigans.
 
-Visual brief to Creative: side-by-side or transition graphic, Espresso Cash wordmark on left, Brij wordmark on right, with a single arrow or "→" between. 1600x900 PNG. Brand colors from current brij.fi. Deadline: 2026-05-24.
+### post-w1-x-2 (Mon) - Espresso-to-Brij announcement (single tweet)
 
-### post-w1-li-1 - LinkedIn founder POV
+> while you were sleeping, espresso cash grew up.
+>
+> we're brij now. wallet got smarter. scope got bigger. team's the same maniacs.
+>
+> first thing it does? books your flights for you. travel.brij.fi
 
-> Two years ago we shipped Espresso Cash. A wallet built for humans buying things in places where banking is broken.
->
-> Then agents showed up needing the same primitives. Daily limits. Policy enforcement. Signing keys. On-ramps. Except they don't want a UI. They want an API.
->
-> So we rebuilt the wallet for software. It's called Brij.
->
-> Same team. Same care about getting money infrastructure right. New shape for a new user.
->
-> First proof is live at travel.brij.fi. An agent searches live airline inventory, creates an escrow-backed intent, funds it via x402, and gets back a real PNR. No IATA accreditation. No monthly minimum. No human-shaped contract.
->
-> If you're building agents and you've hit the payment wall, we'd like to hear from you.
->
-> brij.fi
+### post-w1-x-3 (Tue) - Travel receipt
 
-### post-w1-x-2 - Product receipt: first travel booking screenshot
-
-> agent just booked SFO→LIS in 2.1s.
+> SFO → LIS. economy seat. paid in usdc. settled in 2.1 seconds.
 >
-> $0.10 search.
-> $0.10 intent.
-> $487 escrow.
->
-> no IATA accreditation. no merchant onboarding. no monthly minimum.
+> the entire booking cost less than the airport coffee.
 >
 > travel.brij.fi
 
-Visual brief: actual screenshot of a successful booking response (PNR redacted or fake-PNR if needed). 1200x675.
+### post-w1-x-4 (Wed) - Travel hook with attitude
 
-### post-w1-x-3 - Feature drumbeat: smart wallet
-
-> a wallet for software.
+> every travel site asks for: name, email, phone, billing address, marketing preferences, your firstborn.
 >
-> agent-001.wallet has a $500 daily limit, three active policies, and last signed a tx 4 minutes ago. it doesn't need a UI. it needs an API.
->
-> brij smart wallet, live now. brij.fi
-
-Visual brief: clean rendering of "agent-001.wallet" card from current brij.fi smart-wallet section. 1200x675.
-
----
-
-## Week 2 posts
-
-### post-w2-x-1 - Feature: on-ramps
-
-> on-ramps for software.
->
-> agents pay in USDC. humans top them up in fiat. we route every conversion through the best rate available across providers.
->
-> $200 USD → $198.50 USDC. 2.1s. 0% slip.
->
-> brij.fi
-
-### post-w2-li-1 - LinkedIn founder POV
-
-> "402 Payment Required" was a footnote in HTTP for 25 years.
->
-> The x402 protocol just promoted it to the front of the agent stack. Now any HTTP service can quote a price, accept payment, and return data in a single round trip - no API keys, no merchant accounts, no monthly minimums.
->
-> This is the part of agent infrastructure that almost no one is building. We are.
->
-> brij.fi
-
-### post-w2-x-2 - Service access drumbeat
-
-> x402 endpoints called this week: [N]
-> top caller: [framework]
-> avg settlement: 340ms
->
-> 402 payment required is the new API key.
->
-> brij.fi
-
-(Numbers filled in by founder from current week's data. If number is too small to brag about, swap for a build-in-public framing about what we're seeing.)
-
-### post-w2-x-3 - Demo clip (Friday)
-
-> 30 seconds of an agent booking a flight, paying in usdc, getting a real PNR back.
->
-> no IATA. no contract.
+> brij asks for: where and when.
 >
 > travel.brij.fi
 
-Visual brief: 30-second screen capture + voiceover (or captions only). Creative deliverable. Detailed brief in [10-YOUTUBE.md](./10-YOUTUBE.md).
+### post-w1-x-5 (Thu) - Why travel first
+
+> we shipped a flight booking engine before we shipped a homepage.
+>
+> not because we're masochists. because if your wallet can buy a real airline seat, it can buy almost anything.
+>
+> travel.brij.fi is the proof. brij.fi is the rest.
+
+### post-w1-x-6 (Fri) - Travel use-case provocation
+
+> imagine telling your agent: "i want to be in tokyo by friday under $800."
+>
+> and it just does it.
+>
+> we built that. it works. travel.brij.fi
+
+### post-w1-li-1 (Tue) - LinkedIn founder POV on travel
+
+> Two years ago we built a wallet so people in countries with broken banking could move money. That was Espresso Cash.
+>
+> Today we shipped something stranger. A flight booking engine where the customer is an AI agent. It searches live airline inventory, pays in USDC over the x402 protocol, and gets back a real PNR. No IATA accreditation. No corporate travel desk. No 47-step checkout.
+>
+> We did travel first on purpose. If a wallet can book a flight, it can buy almost anything. The hardest payment problem in the world has a regulated industry, real inventory, and real consequences when it breaks.
+>
+> We're now Brij. travel.brij.fi is live. Try to break it.
 
 ---
 
-## Week 3 posts
+## Week 2 posts - SMART WALLET
 
-### post-w3-x-1 - POV thesis post
+### post-w2-x-1 (Mon) - Wallet hero
 
-> agents need money the way websites needed HTTPS.
+> your wallet is a checking account.
 >
-> not 18 months of multi-sig committee architecture. a thin, opinionated layer that just works.
+> ours is a personal assistant with a debit card and zero anxiety about pulling the trigger.
 >
-> we shipped travel before we shipped wallet on purpose. real traffic finds the dangerous edges faster than any threat model.
+> the brij smart wallet. brij.fi
+
+### post-w2-x-2 (Mon/Tue) - Wallet capability flex
+
+> things the brij smart wallet can do while you're in a meeting:
 >
-> brij.fi
-
-### post-w3-li-1 - LinkedIn founder POV: shipping before talking
-
-> The default playbook in agent infra is: write a whitepaper, raise a round, spend a year on architecture, ship to nobody.
->
-> We did the opposite. We shipped a flight booking that pays in USDC over x402 before we wrote a single piece of marketing about Brij.
->
-> Builders trust receipts. The product is the proof.
-
-### post-w3-x-2 - Ecosystem quote-post (reactive)
-
-Template - filled in based on a real ecosystem post that week. Example shape:
-
-> exactly this. and the missing piece is the wallet layer underneath, which is why we built brij. [quoted post]
-
-### post-w3-x-3 - Product receipt: weekly booking count
-
-> week ending [date]: [N] bookings on travel.brij.fi.
->
-> longest route: [city → city]
-> fastest end-to-end: [duration]
-> total settled in USDC: $[N]
+> - book a flight
+> - top up your subscriptions
+> - pay an API by the call
+> - say no when the price looks wrong
 >
 > brij.fi
 
-(Numbers from founder.)
+### post-w2-x-3 (Tue) - Wallet POV punch
+
+> banks took 80 years to add a "send money to a friend" button.
+>
+> we gave wallets the ability to negotiate with software in eight months.
+>
+> brij.fi
+
+### post-w2-x-4 (Wed) - Wallet receipt
+
+> agent-001.wallet
+> daily limit: $500
+> active policies: 3
+> last tx: 4 minutes ago, $0.10 to an inventory API
+>
+> humans get checking accounts. agents get this.
+>
+> brij.fi
+
+### post-w2-x-5 (Thu) - Quote-bait POV
+
+> a wallet that just holds money is a piggy bank.
+>
+> a wallet that can pay, negotiate, and say no is software.
+>
+> we built the second one. brij.fi
+
+### post-w2-x-6 (Fri) - Travel + wallet bridge
+
+> last week we showed you the agent booking a flight.
+>
+> this week, the wallet behind it.
+>
+> same product. one rules the money, the other spends it. brij.fi
+
+### post-w2-li-1 (Tue) - LinkedIn wallet POV
+
+> Every wallet on the market was designed for one user: a human with thumbs.
+>
+> The next ten years of payments aren't humans with thumbs. They're software making thousands of small economic decisions a second. APIs paying APIs. Agents paying for inventory. Subscriptions that defend themselves against price changes.
+>
+> We rebuilt the wallet for that user. Daily limits. Policy rules. Programmatic signing. On-ramps. A real economic actor, not a passive vault.
+>
+> The brij smart wallet is live. brij.fi
+>
+> If you're building agents and you've hit the "how does it actually pay for anything" wall, this is the layer underneath.
 
 ---
 
-## Week 4 posts
+## Week 3 posts - ON-RAMP (RAMP INSIDE WALLET)
 
-### post-w4-x-1 - YouTube upload announcement
+### post-w3-x-1 (Mon) - On-ramp hero
 
-> we put the 30-second flight booking on youtube.
+> your bank account and your wallet just got introduced.
 >
-> agent finds the flight. funds an escrow. gets a real PNR. all over x402.
+> brij now does fiat in, fiat out. wire money to your smart wallet. cash out usdc to your bank.
 >
-> [YouTube link]
-
-### post-w4-li-1 - LinkedIn YouTube cross-post
-
-> 30 seconds of what agent payments actually look like when they work.
->
-> One HTTP call to search live inventory. One to create an escrow-backed intent. One to fund and book. Real airline PNR returned. No IATA accreditation. No monthly minimum.
->
-> This is on brij.fi today.
->
-> [YouTube link]
-
-### post-w4-x-2 - Newsletter teaser
-
-> first issue of 402 receipts goes out wednesday.
->
-> what shipped on brij this month. five things happening in agent-payments worth knowing. one builder spotlight.
->
-> subscribe: brij.fi
->
-> (or wait for the next one. we won't be annoying about it.)
-
-### post-w4-x-3 - Feature: refund flow
-
-> price changed between intent and booking? brij returns the escrow automatically.
->
-> agents don't carry chargeback risk. the protocol does.
+> no exchange. no kyc dance. no "we'll get back to you in 3-5 business days."
 >
 > brij.fi
+
+### post-w3-x-2 (Mon/Tue) - Loop flex
+
+> the loop is closed.
+>
+> wire transfer → smart wallet → flight booking → done.
+>
+> one product. one wallet. zero card networks. brij.fi
+
+### post-w3-x-3 (Tue) - On-ramp use-case provocation
+
+> fund your wallet with a bank wire on monday.
+>
+> have it book your conference flight by tuesday.
+>
+> withdraw the change to your checking account by friday.
+>
+> we built the boring rails. the fun part is what your agent does with them. brij.fi
+
+### post-w3-x-4 (Wed) - On-ramp receipt
+
+> $200 USD wire in → $198.50 USDC settled in 2.1s, 0% slippage.
+> $150 USDC out → checking account, same day.
+>
+> the difference between us and your bank: speed, transparency, and the ability to book your flight after.
+>
+> brij.fi
+
+### post-w3-x-5 (Thu) - Provocation
+
+> stripe took 14 years to ship a wallet.
+>
+> we shipped a wallet, a flight booking engine, and a bank on-ramp before stripe finished their q2 roadmap.
+>
+> brij.fi
+
+### post-w3-x-6 (Fri) - Full-stack flex
+
+> three weeks ago, espresso cash.
+> two weeks ago, the agent booked a flight.
+> this week, your bank account talks to it.
+>
+> we're not playing. brij.fi
+
+### post-w3-li-1 (Tue) - LinkedIn on-ramp POV
+
+> The single biggest reason crypto wallets stay in crypto: there's no clean door between them and your bank.
+>
+> We just installed the door.
+>
+> Brij users can now wire fiat directly into their smart wallet, and pull USDC back to their checking account, with no centralized exchange in the middle. Routed through Ramp, settled in 2.1 seconds, no slippage.
+>
+> This is the part everyone hand-waves about. We built it.
+>
+> The loop is closed: fund with a wire on Monday, let your agent book a flight on Tuesday, cash out the change Friday. One product. No card networks.
+>
+> brij.fi
+
+---
+
+## Week 4 posts - SERVICES, COMMUNITY, NEWSLETTER
+
+### post-w4-x-1 (Mon) - Bounty / community flex (David's idea)
+
+> we'll pay you to make us look good.
+>
+> $500 to the best video showing something cool your brij wallet can do. rules in thread.
+>
+> brij.fi
+
+### post-w4-x-2 (Mon, thread continuation) - Bounty rules
+
+> - post on X, tag @brij
+> - show your wallet doing something real (booking, paying, negotiating, anything wild)
+> - top entry gets $500 USDC. three runners-up get $100 each.
+> - submissions close [date - TBD with Anthony]. we'll repost the good ones either way.
+
+### post-w4-x-3 (Tue) - YouTube clip drop
+
+> 30 seconds of an ai agent booking a real flight with a real wallet.
+>
+> on youtube now: [link]
+>
+> if you watch nothing else this week, watch the part where it negotiates the price.
+
+### post-w4-x-4 (Wed) - Newsletter teaser
+
+> 402 receipts. issue 01 drops tomorrow.
+>
+> what shipped on brij this month. five things in agent-payments worth knowing. one builder we're stealing ideas from.
+>
+> subscribe at brij.fi. or don't, and find out from someone smarter than you.
+
+### post-w4-x-5 (Thu) - Free flight promo (Antoine's idea)
+
+> first 10 people to book a flight on travel.brij.fi this month: we cover it.
+>
+> just book. we'll refund you in usdc within 24 hours. no catch, no marketing meeting, no upsell.
+>
+> travel.brij.fi
+
+### post-w4-x-6 (Fri) - Month one wrap, month two tease
+
+> month one done. one wallet. one flight booking engine. one on-ramp. one bounty. one newsletter.
+>
+> month two we're adding more services your agent can actually pay for.
+>
+> any guesses? brij.fi
+
+### post-w4-li-1 (Wed) - LinkedIn newsletter intro
+
+> Today we sent the first issue of 402 Receipts.
+>
+> A monthly note for builders, operators, and the merely curious about what's happening in agent payments. What shipped. What's interesting. Who's building what.
+>
+> No "10 ways AI will change everything." Real receipts, real builders, real numbers.
+>
+> Subscribe at brij.fi. Or wait for someone to forward it to you.
+
+---
+
+## Open items needing Anthony/David confirm before publish
+
+- **w4-x-1 / w4-x-2 (bounty):** confirm $500 top / $100 runner-ups prize amounts. Confirm submission window length. Confirm bounty is going ahead at all.
+- **w4-x-5 (free flight promo):** confirm budget cap, confirm "first 10" framing or a different number, confirm legal framing.
+- **w1-x-3 / w2-x-4 / w3-x-4 (receipts):** all numbers in these posts are placeholders. Need real data pulled from production before posting.
+- **w4-x-3 (YouTube link):** depends on Creative shipping the 30-second clip + YouTube channel setup.
+- **w2-x-2 capability flex:** confirm all four capabilities (book flight, top up subscriptions, pay API by call, decline on price) are live or in shippable state by W2.
 
 ---
 
@@ -237,7 +348,7 @@ Template - filled in based on a real ecosystem post that week. Example shape:
 
 **Sections:**
 1. **What is this** (one paragraph) - Monthly notes from Brij. What shipped, what's interesting in agent payments, who's building what.
-2. **What shipped on Brij this month** - travel.brij.fi went live. Smart wallet is in production. X account converted from Espresso. Numbers if we have them.
+2. **What shipped on Brij this month** - travel.brij.fi went live. Smart wallet is in production. Ramp on-ramp landed. X account converted from Espresso. Numbers if we have them.
 3. **Five things in agent payments worth knowing** - 5 bullets on x402 ecosystem, Solana agent infra, AI framework updates, payment standards work, and 1 builder we're watching.
 4. **Build of the month** - one builder spotlight (TBD - Anthony picks or we surface from the ecosystem).
 5. **What we're working on next** - 2-3 lines on what's coming.
