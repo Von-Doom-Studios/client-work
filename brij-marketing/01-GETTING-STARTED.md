@@ -43,3 +43,4 @@ Brij is the payments layer for AI agents on Solana:
 - Campaigns ([05-CAMPAIGNS.md](./05-CAMPAIGNS.md)) own everything end to end and must declare a newsletter tie-in.
 - Engagement is driven by [07-ENGAGEMENT.md](./07-ENGAGEMENT.md), read daily by the external X-watcher.
 - The newsletter ([08-NEWSLETTER.md](./08-NEWSLETTER.md)) is the long form of whatever campaign just ran.
+- Before drafting or replying on X, open [09-POSTING-PLAYBOOK.md](./09-POSTING-PLAYBOOK.md). Run its audit checklist before anything ships.
