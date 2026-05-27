@@ -47,6 +47,14 @@ Builder-confident: declarative, plain, dry. The reader is a developer or operato
 - **Banned phrases:** "excited to announce," "thrilled," "we're so proud," "gm fam," "revolutionizing," "game-changing," "the future of," "stay tuned."
 - **Length:** target 240 characters. Longer when a receipt needs space. Threads only when one tweet truly won't carry it.
 
+## Voice tests (apply before any copy ships)
+
+Mechanics for hooks, length, formatting, and replies live in [09-POSTING-PLAYBOOK.md](./09-POSTING-PLAYBOOK.md). These two voice tests run separately, every time:
+
+- **Read it out loud.** Does it sound like a person? If it sounds like a press release, rewrite.
+- **Agency bar.** Would Phantom, Linear, or Coinbase's social team put their name on this? If no, rewrite.
+- **Brand confidence check.** Does the copy paint Brij or Solana in a confident light, with no hedges like "closer to working than people realize"? If no, rewrite.
+
 ## Comedy (Wednesday)
 
 One funny post per week is the "we're not just selling" lever. Comedy posts have to be actually funny, not just contrast posts dressed as jokes.

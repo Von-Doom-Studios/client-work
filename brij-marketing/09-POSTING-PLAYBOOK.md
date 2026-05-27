@@ -109,26 +109,39 @@ A post is not done at publish. The first hour decides whether the algorithm push
 - If a post starts performing (5+ replies in the first hour), reply to your own post with a follow-up thought. Reply chains on your own post extend the algorithmic life.
 - Quote-post your own post into your timeline 24 hours later with a new angle if it underperformed but the topic is still relevant.
 
-## Audit checklist (apply to every post and reply before sending)
+## Worked example (before/after)
 
-Run this list out loud. If any answer is no, rewrite or kill the post.
+**Before (the original w1-x-1 lead in 06-CONTENT-LIBRARY, pre-rewrite):**
+
+> An AI agent can now book a real flight on Brij. It searches live airline inventory, pays in USDC over the x402 protocol, and returns a real PNR. No card. No airline account. No IATA accreditation.
+
+Audit fails: "PNR" and "IATA accreditation" are jargon a normal X reader won't recognize, so the first line forces the reader to decode before they get the picture. Three ideas stacked.
+
+**After:**
+
+> An AI agent can now book your flight. It searches the same airlines you would, finds the cheapest seat, pays for it, and sends you the confirmation. You don't need an account anywhere. travel.brij.fi
+
+Audit passes: first line names a concrete event in plain language; one idea (an AI books your flight); every clause carries weight; CTA is a plain URL.
+
+## Audit checklist (apply before every post or reply)
+
+Mechanics only. Voice tests live in [02-STRATEGY.md](./02-STRATEGY.md).
 
 1. Does the first line stop the scroll without context?
 2. Is there one idea, not two?
 3. Is every word doing work? Can I cut 20% without losing meaning?
-4. Did I read it out loud? Does it sound like a person?
-5. If it's comedy, did I laugh, smile, or exhale through my nose?
+4. Is there any jargon a normal X reader won't recognize? If yes, replace or cut.
+5. Is the CTA a single plain URL or action verb (not "click here / learn more / DM us")?
 6. If it's a reply, is the value-add in the first sentence, with the brand mention (if any) last?
-7. Would Phantom, Linear, or Coinbase's social team put their name on this?
-8. Does it paint Brij or Solana in a confident light? No "closer to working than people realize" hedges?
+7. Are there any em dashes or hyphens used as em dashes? Rewrite the sentence if yes.
+8. Are external links out of the post body? (Algorithm suppresses them. Links go in the first self-reply.)
 
 Failing any one of these = rewrite, not ship.
 
 ## What we never do
 
-- Engagement bait without payoff ("This will change everything", no follow-through)
+- Engagement bait without payoff ("This will change everything" with no follow-through)
 - Manufactured controversy (contrarian for clicks without a real take)
-- Hashtag spam (3+ in a single post)
 - Threads longer than 7 tweets
 - Reply guy tactics (replying to giant accounts with empty hot takes)
 - Posting and leaving for an hour
